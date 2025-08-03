@@ -1,34 +1,41 @@
+/*
+*{
+    text-align: center;
+}
+*/
 body{
     width: 100;
-    align: center;
-}
-.textblock {
+    font-size: 20px;    
+    color: brown;
     background-color: aquamarine;
+}
+h1, h2 {
+    font-style: italic;
+    color: rgb(0, 78, 78);
+    font-weight: normal;
+}
+/*
+.textblock {
+    
     width: 700px;
     padding: 10px;
 }
-
-
+*/
 h1 {
-    font-size: 26px;
-    font-style: italic;    
     font-weight: 400;
     text-align: center;
-    color: rgb(0, 78, 78)
 }
 
-#intro {
-    color: brown;
+h2 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+#teaser {
     font-style: italic;
     font-size: 14px;
 }
 
-h2 {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 300;
-    color: rgb(0, 78, 78)
-}
 a {
     font-size: 12px;
     text-decoration: none;
@@ -46,7 +53,6 @@ a {
     font-size: 13;
     font-style: bold;
     font-weight: 600;
-    color: brown;
 }
 .markeditalic {
     font-size: 13;
@@ -57,13 +63,11 @@ a {
 .italic{
     font-size: 13px;
     font-style: italic;
-    color: brown;
 
 }
 
 ul{
     font-size: 12px;
-    color: brown;
     background-color:rgb(243, 210, 210);
 }
 

@@ -1,0 +1,50 @@
+h1 {
+    font-size: 26px;
+    color: rgb(0, 99, 180);
+}
+h1,h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    color: brown;
+    font-size: 16;
+}
+.term {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    color: gray;
+}
+.dedicated {
+    font-weight: bold;
+    background-color: rgb(255, 255, 164);
+}
+.list_type_1 span {
+    color: blue;
+}
+
+.list_type_2 span {
+    font-style: italic;
+    color: green;
+    
+}
+.list_type_2 {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sect_1 {
+    color: rgb(0, 67, 122);
+    text-decoration: underline;
+}
+
+.sect_2 {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: grey;
+}

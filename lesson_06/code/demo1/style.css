@@ -1,0 +1,11 @@
+div{
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: lowerspace;
+    text-indent: 50px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    white-space: normal;
+    direction: ltr;
+}
