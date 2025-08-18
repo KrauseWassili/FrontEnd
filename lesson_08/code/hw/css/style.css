@@ -1,12 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
 body {
     background-color: rgb(188, 255, 255);
-    margin: 0 auto;
 }
 
 header {
     background-color: rgb(146, 177, 223);
+    top: 0;
+    left: 0;
+    right: 0;
     height: 60px;
-    width: 100%;
     max-width: 1200px;
     line-height: 60px;
     text-align: center;
@@ -14,9 +22,10 @@ header {
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
-    margin-top: -60px;
+    
     position: fixed;
     z-index: 1;
+    display: block;
 }
 
 main {
@@ -31,6 +40,7 @@ main {
     margin-top: 60px;
     padding: 8px;
     box-sizing: border-box;
+    display: block;
 }
 
 ul {
