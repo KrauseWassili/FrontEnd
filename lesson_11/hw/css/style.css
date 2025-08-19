@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    display:flex;
+    color: whitesmoke;
+    flex-grow: 1;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+hr {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        flex-direction: column;
+    }
+    a {
+        display: block;        
+        width: 100%;
+        font-size: 12px;
+    }
+    hr {
+        display:block;
+    }
+}
