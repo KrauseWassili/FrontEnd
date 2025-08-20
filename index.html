@@ -4,59 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>FrontEnd</title>
-    <style>h2 {font-size: 16px;}</style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(143, 223, 255);
+        }
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>
-        Уроки FrontEnd Basic
-    </h1>
-    <h2>
-        Урок 1
-    </h2>
-    <h2>
-        Урок 2
-    </h2>
-    <p><a href="./Lesson_02/demo01/index.html" target="_blank">demo 1: первый пример</a></p>
-    <h2>
-        Урок 3
-    </h2>
-    <p><a href="./lesson_03/code/demo02/index.html">demo 2: второй пример</a></p>
-    <p><a href="./lesson_03/hw_03/">Языки программирования</a></p>
-    <h2>
-        Урок 4
-    </h2>
-    <p><a href="./lesson_04/hw_04/index.html">Задание 1</a></p>
-    <p><a href="./lesson_04/hw_04/index2.html">Задание 2</a></p>
-    <p><a href="./lesson_04/hw_04/index3.html">Задание 3</a></p>
-    <h2>
-        Урок 5
-    </h2>
-    <p><a href="./lesson_05/code/hw/index.html">Задание 1</a></p>
-    <p><a href="./lesson_05/code/hw2/index.html">Задание 2</a></p>
-    <h2>
-        Урок 6
-    </h2>
-    <p><a href="./lesson_06/code/hw_06/">Задание 1</a></p>
-    <p><a href="./lesson_06/code/hw_06_2/">Задание 2</a></p>
-    <h2>
-        Урок 8
-    </h2>
-    <p><a href="./lesson_08/code/hw/">Задание 1</a></p>
-    <h2>
-        Урок 9
-    </h2>
-    <p><a href="./lesson_09/code/hw/">Задание 1</a></p>
-    <h2>
-        Урок 10
-    </h2>
-    <p><a href="./lesson_10/hw/">Задание 1</a></p>
-    <h2>
-        Урок 11
-    </h2>
-    <p><a href="./lesson_11/hw/">Задание 1</a></p>
-
+    <header class="sticky-top text-center p-2">
+        <h1>Уроки FrontEnd Basic</h1>
+    </header>
+    <main class="row m-3">
+        <div class="col border-start border-end">
+            <h2>Урок 1</h2>
+            <h2>Урок 2</h2>
+            <p><a href="./Lesson_02/demo01/index.html" target="_blank">demo 1: первый пример</a></p>
+            <h2>Урок 3</h2>
+            <p><a href="./lesson_03/code/demo02/index.html">demo 2: второй пример</a></p>
+            <p><a href="./lesson_03/hw_03/">Языки программирования</a></p>
+            <h2>Урок 4</h2>
+            <p><a href="./lesson_04/hw_04/index.html">Задание 1</a></p>
+            <p><a href="./lesson_04/hw_04/index2.html">Задание 2</a></p>
+            <p><a href="./lesson_04/hw_04/index3.html">Задание 3</a></p>
+            <h2>Урок 5</h2>
+            <p><a href="./lesson_05/code/hw/index.html">Задание 1</a></p>
+            <p><a href="./lesson_05/code/hw2/index.html">Задание 2</a></p>
+            <h2>Урок 6</h2>
+            <p><a href="./lesson_06/code/hw_06/">Задание 1</a></p>
+            <p><a href="./lesson_06/code/hw_06_2/">Задание 2</a></p>
+            <h2>Урок 8</h2>
+            <p><a href="./lesson_08/code/hw/">Задание 1</a></p>
+            <h2>Урок 9</h2>
+            <p><a href="./lesson_09/code/hw/">Задание 1</a></p>
+            <h2>Урок 10</h2>
+            <p><a href="./lesson_10/hw/">Задание 1</a></p>
+        </div>
+        <div class="col border-start border-end">
+            <h2>Урок 11</h2>
+            <p><a href="./lesson_11/hw/">Задание 1</a></p>
+            <h2>Урок 12</h2>
+            <p><a href="./lesson_12/hw/">Bootstrap - Задание 1</a></p>
+        </div>
+    </main>
 </body>
 
 </html>
