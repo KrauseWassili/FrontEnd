@@ -13,9 +13,14 @@ if (typeof (num1) == "number" && typeof (num2)== "number")
 else
     console.log("Как минимум одна из переменных не числовая")
 
-res=num1
+res1=num1
 for(let i=1; i<num2; i++){
-    res*=num1;
+    res1*=num1;
 }
 
-console.log(`a^b=${res}`)
+console.log(`num1^num2=${res1}`)
+
+res2=num1**num2;
+console.log(`num1**num2=${res2}`)
+
+console.log(`(num1^num2===num**num2) => ${res1===res2}`)
