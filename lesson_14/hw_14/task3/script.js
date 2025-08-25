@@ -2,21 +2,20 @@ let input = prompt("введите число:");
 
 let num = Number(input);
 
-if (Number.isInteger(num)) {
-    console.log("Это целое число");
+if (!Number.isInteger(num)) {
+    !console.log("Ошибка!");
 } else {
-    console.log("Это не целое число");
-}
-let res = [];
 
-if (num === 0) {
-    res[0] = 0;
-}
+    let res = [];
 
-while (num > 0) {
-    res.unshift(num)
-    num = (num - res[0]) / 10;
-}
-  
-console.log(res);
+    if (num === 0) {
+        res[0] = 0;
+    }
 
+    while (num > 0) {
+        res.unshift(num)
+        num = (num - res[0]) / 10;
+    }
+
+    console.log(res);
+}
