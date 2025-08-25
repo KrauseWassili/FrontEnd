@@ -5,22 +5,22 @@
 Сравните результат, полученный вашим кодом и стандартной операцией ''.
 Результат сравнения выведите в консоль.*/
 
-num1 = 5;
-num2 = 2;
+const num1 = 5;
+const num2 = 2;
 
-if (typeof (num1) == "number" && typeof (num2)== "number")
+if (typeof (num1) === "number" && typeof (num2) === "number")
     console.log("Переменные числовые")
 else
     console.log("Как минимум одна из переменных не числовая")
 
-res1=num1
+let res1=num1
 for(let i=1; i<num2; i++){
     res1*=num1;
 }
 
 console.log(`num1^num2=${res1}`)
 
-res2=num1**num2;
+let res2=num1**num2;
 console.log(`num1**num2=${res2}`)
 
 console.log(`(num1^num2===num**num2) => ${res1===res2}`)
