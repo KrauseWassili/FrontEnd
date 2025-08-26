@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(94, 169, 255);
+}
+main {   
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;    
+    justify-content: center;    
+}
+
+#cover {
+    
+    
+    background-color: blueviolet;
+    background: linear-gradient(to top,
+            rgb(94, 169, 255) 0%,
+            rgb(94, 169, 255) 15%,
+            rgb(94, 169, 255) 85%,
+            rgba(94, 169, 255, 0) 100%);
+    height: 100vh;
+    position: relative;
+}
+
