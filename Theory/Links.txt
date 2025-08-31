@@ -1,2 +1,4 @@
 https://developer.mozilla.org/en-US/
 https://learn.javascript.ru/
+https://www.json.org/json-en.html
+https://jsonplaceholder.typicode.com/

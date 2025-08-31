@@ -17,7 +17,7 @@ function printProdArr(productArr) {
     for (let i = 0; i < productArr.length; i++) {
         console.log(`Товар ${i+1}:`)
         for (let key in productArr[i]) {
-            if (typeof productArr[i][key] === "function")
+            if (typeof (productArr[i][key]) === "function")
                 console.log(`\t${key}: ${productArr[i].info()}`)
             else
                 console.log(`\t${key}: ${productArr[i][key]}`)
