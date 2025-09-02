@@ -1,6 +1,6 @@
 let tick = 0;
 let sec = 0;
-let speedValue = 1;
+let speedValue = 3;
 
 const card = document.getElementById("card");
 
