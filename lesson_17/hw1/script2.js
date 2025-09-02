@@ -10,5 +10,5 @@ function move(){
         return;
     }
     block.style.top = offset + "px";
-    requestAnimationFrame(move);
+    
 }
